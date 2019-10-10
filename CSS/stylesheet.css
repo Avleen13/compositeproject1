@@ -21,7 +21,8 @@ h1,h2,h3,h4,h5,p{
   margin-bottom: 1rem;;
   padding: 0;
   overflow: hidden;
-  background-color:#0b4dad;
+  background-color:#0562e8;
+  border: 0.2em solid #0b4dad;
 }
 
 .nav-items li {
@@ -39,7 +40,7 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+.nav-items li a:hover {
   background-color:white;
   color: #0b4dad;
 }
@@ -48,13 +49,13 @@ li a:hover {
   text-align: center
 }
 .btn{
-  border-radius: 2px;
+  border-radius: 5px;
   width: auto;
-  min-width: 130px;
-  border: none;
+  min-width: 100px;
+  border: 0.2em solid #0b4dad;
   display: inline-block;
-  min-height: 42px;
-  line-height: 42px;
+  min-height: 40px;
+  line-height: 40px;
   font-size: 13pt;
   color: #fff;
   background: #0562e8;
@@ -67,24 +68,17 @@ li a:hover {
 }
 
 .btn:hover{
-  color: #fff;
-  background: #0b4dad;
+  color: #0b4dad;
+  background: #fff;
   outline: 0;
+  box-shadow: none;
+}
 
-box-shadow: none;
-}
-.options{
-  display: gird;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
-  float: left;
-  padding-left: 1rem;
-  background-color: #f1f1f1;
-}
-.placestostsay{
+.main-heading{
   margin: 2rem 0 0 4rem;
 }
 
-.placestostsay h2{
+.main-heading h2{
   color: #0b4dad;
 }
 
@@ -94,8 +88,7 @@ box-shadow: none;
   margin: 0 4rem;
 }
 
-.destinations{
-    
+.places-block{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: 0.2rem;
@@ -118,7 +111,9 @@ box-shadow: none;
 
 .content_x{
   padding:0.45rem;
-  
+}
+.content_x .p-heading{
+  font-weight: bold
 }
 
  
@@ -129,14 +124,6 @@ padding:2 rem;
 }
 
 
-
-/*for tablet
-@media screen and (max-width: 768px) and (min-width: 501px) {
-  .destinations{
-    grid-template-columns: 1fr 1fr;
-  }
-}
-*/
 .footer{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -151,17 +138,15 @@ padding:2 rem;
   padding: 0.5rem;
   text-align: center;
 }
-/*formobile*/
+
+/*styles for mobile*/
 @media screen and (max-width:742px){
-  .destinations{
+  .places-block{
     grid-template-columns: 1fr;
   }
 
 }
 
-.w3-button w3-round-large w3-teal{
-  padding: 0 1rem;
-}
 
 .images{
     /*background-image: cover;*/
@@ -183,7 +168,7 @@ padding:2 rem;
 /*for tablet*/
 
 @media screen and (max-width:900px) and (min-width:501px){
-    .destinations{
+    .places-block{
         grid-template-columns: 1fr 1fr;
     }
    
@@ -191,7 +176,7 @@ padding:2 rem;
 
 /*for desktop*/
 @media screen and (max-width:1128px) and (min-width:901px){
-    .destinations{
+    .places-block{
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
@@ -199,7 +184,7 @@ padding:2 rem;
 }
 
 @media screen and (max-width:500px) {
-    .destinations{
+    .places-block{
         grid-template-columns: 1fr;
     }
 }
