@@ -12,6 +12,19 @@ h1,h2,h3,h4,h5,p{
   font-family: "Roboto",Helvetica,Arial,sans-serif;
 }
 
+.header{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+}
+
+main{
+  margin-top: 10em;
+  
+}
+
 .nav-items{
   text-align: center;
 }
@@ -113,10 +126,26 @@ li a {
   padding:0.45rem;
 }
 .content_x .p-heading{
-  font-weight: bold
+  font-weight: bolder;
+  font-size: 1.3em;
+  color: #0b4dad;
 }
 
- 
+.content_x .heart-red{
+  color: red;
+}
+.content_x span{
+  color: grey;
+  font-size:0.9em;
+}
+
+.content_x .verified-box{
+  border: 1px solid #0b4dad;
+  border-radius: 0.3em;
+  background: #0b4dad;
+  color: white;
+  padding: 0.3em;
+}
 .box_info{
 display: grid;
 grid-template-columns:4fr 4fr;
