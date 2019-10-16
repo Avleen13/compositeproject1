@@ -17,6 +17,9 @@ body {
   background-color: white;
 }
 
+.header .nav .icons img{
+  max-width: 6em;
+}
 main{
   margin-top: 10em;
   
