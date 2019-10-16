@@ -18,11 +18,9 @@ body {
 }
 
 .header .nav .icons img{
-  max-width: 6em;
+  max-width: 7em;
 }
-main{
-  margin-top: 13em;
-}
+
 
 .nav-items{
   text-align: center;
@@ -56,7 +54,9 @@ main{
   background-color:white;
   color: #0b4dad;
 }
-
+main{
+  margin-top: 13em;
+}
 .btn-center{
   text-align: center
 }
@@ -103,9 +103,7 @@ main{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: 0.2rem;
     grid-row-gap: 0.2rem;
-    padding: 0 4em;
-    
-    
+    padding: 0 4em;  
 }
 
 .destination_x{
