@@ -21,8 +21,7 @@ body {
   max-width: 6em;
 }
 main{
-  margin-top: 10em;
-  
+  margin-top: 13em;
 }
 
 .nav-items{
@@ -205,7 +204,11 @@ padding:2 rem;
       grid-template-columns: 1fr;
   }
   main {
-    margin-top: 18em;
+    margin-top: 21em;
+}
+.main-heading{
+  margin:0;
+  text-align: center;
 }
 .places-block {
   padding: 0 2em;
@@ -213,6 +216,7 @@ padding:2 rem;
 .footer-grid{
 grid-template-columns: 1fr; 
 }
+
 }
 
 
@@ -223,7 +227,8 @@ grid-template-columns: 1fr;
         grid-template-columns: 1fr 1fr;
     }
     main {
-      margin-top: 14em;
+      margin-top: 17em;
+      text-align: center;
   }
   .places-block {
     padding: 0 1.5em;
