@@ -167,7 +167,7 @@ padding:2 rem;
   text-align: center;
 }
 .createdby p{
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 
 .icons{
@@ -186,6 +186,7 @@ padding:2 rem;
 
 .icons ul{
   line-height: 1em;
+   margin: 0;
 }
 .images{
     max-width: 94%;
